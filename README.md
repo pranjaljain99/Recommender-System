@@ -13,19 +13,19 @@ approaches and tried to explain them in the simplest of manner performing all th
   
 _a) Affinity based analysis – Based on Affinity Weight, Popularity, Recency.  _
 
-Sometimes also called Market basket analysis or association rule learning is a data mining technique that can be used in various fields like networking, ecommerce, entertainment, marketing, sales etc . The basic aim of such an algorithm is to help a customer making a better decision while choosing a product. This can be from Amazon which suggests a different product relation with the product from the purchase history (E.g. : Printer --> Paper) or the Android google play store which suggests a related app to the one which you previously downloaded. There are mainly three indices to understand the presence , strength and nature of Affinity mining. These are support, confidence and lift. 
-Support : The support of a product A, supp(A) is the proportion of transaction in the database in which the item X appears. It signifies the popularity of an itemset.
-**supp(A) = (Number of transactions in which A appears)/(Total number of transactions)**
+Sometimes also called Market basket analysis or association rule learning is a data mining technique that can be used in various fields like networking, ecommerce, entertainment, marketing, sales etc . The basic aim of such an algorithm is to help a customer making a better decision while choosing a product. This can be from Amazon which suggests a different product relation with the product from the purchase history (E.g. : Printer --> Paper) or the Android google play store which suggests a related app to the one which you previously downloaded. There are mainly three indices to understand the presence , strength and nature of Affinity mining. These are support, confidence and lift.   
+Support : The support of a product A, supp(A) is the proportion of transaction in the database in which the item X appears. It signifies the popularity of an itemset.  
+**supp(A) = (Number of transactions in which A appears)/(Total number of transactions)**  
 
-Confidence : Confidence signifies the likelihood of product B being purchased when product A is purchased.
-**conf(A --&gt; B) = supp(A U B) / supp( A )**
-_It is more like a conditional probability, P(Y|X), that is probability Y given Probability of X._
+Confidence : Confidence signifies the likelihood of product B being purchased when product A is purchased.  
+**conf(A --&gt; B) = supp(A U B) / supp( A )**  
+_It is more like a conditional probability, P(Y|X), that is probability Y given Probability of X._  
+  
+Lift : Lift explains the ratio of Confidence &amp; Expected confidence.  
 
-Lift : Lift explains the ratio of Confidence &amp; Expected confidence.
-
-**lift (X --&gt; Y) = supp (X U Y)/( supp(X) supp (Y) )**
-_For two products likely to be bought together, lift needs to be greater than 1_
-
+**lift (X --&gt; Y) = supp (X U Y)/( supp(X) supp (Y) )**  
+_For two products likely to be bought together, lift needs to be greater than 1_  
+  
 _b) Similar Customer based analysis – Based on the score/rating given by the customer.  _  
 
 
