@@ -15,6 +15,7 @@ _a) Affinity based analysis – Based on Affinity Weight, Popularity, Recency.  
 
 Sometimes also called Market basket analysis or association rule learning is a data mining technique that can be used in various fields like networking, ecommerce, entertainment, marketing, sales etc . The basic aim of such an algorithm is to help a customer making a better decision while choosing a product. This can be from Amazon which suggests a different product relation with the product from the purchase history (E.g. : Printer --> Paper) or the Android google play store which suggests a related app to the one which you previously downloaded. There are mainly three indices to understand the presence , strength and nature of Affinity mining. These are support, confidence and lift.   
 Support : The support of a product A, supp(A) is the proportion of transaction in the database in which the item X appears. It signifies the popularity of an itemset.  
+  
 **supp(A) = (Number of transactions in which A appears)/(Total number of transactions)**  
 
 Confidence : Confidence signifies the likelihood of product B being purchased when product A is purchased.  
@@ -22,11 +23,16 @@ Confidence : Confidence signifies the likelihood of product B being purchased wh
 _It is more like a conditional probability, P(Y|X), that is probability Y given Probability of X._  
   
 Lift : Lift explains the ratio of Confidence &amp; Expected confidence.  
-
 **lift (X --&gt; Y) = supp (X U Y)/( supp(X) supp (Y) )**  
 _For two products likely to be bought together, lift needs to be greater than 1_  
   
 _b) Similar Customer based analysis – Based on the score/rating given by the customer.  _  
 
+This is also known as Collaborative Filtering. The basic idea behind building a collaborative filtering is very simple. Suppose we have a customer C1 to whom we need to make recommendations. For this, we need to find a group of other users whose likes and dislikes are similar to the customer C1.  
 
-c) Content based analysis – Based on the Review sentiments of the customer.  
+**Importance** :Collaborative Filtering has a significance of its own that is it does not require to understand the nature of the items and still can suggest complex products. This can be implemented in any kind of recommendation whether books, movies, products, people etc. It doesn’t require any feature selection because to select relevant features form a data like movies or music is quite complicated.  
+To compute this, we can use different approaches like Jaccard similarity, Cosine similarity or Pearson similarity.  
+
+_c) Content based analysis – Based on the Review sentiments of the customer.  _  
+
+This is also known as Content Based Filtering. Here I have used text mining (Sentiment Analysis) to determine the sentiment of the Customer as per the reviews provided for a product and based on this and the average score (rating) given by the customer, I have tried to predict a similar product for a customer.
