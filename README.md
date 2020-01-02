@@ -7,6 +7,7 @@ Imagine a situation where a customer interacts with a very large catalogue of pr
 The aim of this project is to analyse an available dataset from an Ecommerce business and find the hidden patterns &amp; correlating it to the trends. Recommendation engine provides a personalised information to a customer by learning its past purchase history, demographics and other interactions.  
 
 **THEME:**  
+  
 To produce a generalised, specific and tailored recommendation to a user by observing the pattern in his purchase behaviour using transactional data from an online Ecommerce retailer. To keep on giving more specific recommendations, I have used three different
 approaches and tried to explain them in the simplest of manner performing all the computations on a Jupyter notebook and providing snippets wherever necessary.  
 a) Affinity based analysis – Based on Affinity Weight, Popularity, Recency.  
