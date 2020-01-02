@@ -58,3 +58,8 @@ Trade-off between recommending very similar products (Know the user likes these)
 _e. Fraud Recommendation_  
 To increase the profitability of the merchants, products with higher sales margin are recommended to the user and that with lower margin is not recommended. Also, in some cases, a seller tends to recommend a different product of his own brand and weights down the ranking of the competitor brand.  
 **Solution : Content based filtering tends to avoid this incorrect way of prediction**  
+
+**CONCLUSION**  
+
+For this project there have been a variety of things which have helped me put theory into practical learning which is used in real world scenarios. One such problem is associated with data collection. Most of the times, we obtain the data in an unstructured or a semi
+structured format. Exploratory data analysis (EDA) forms a major part to get a feel of the data. Once the data is cleansed, we apply various transformations on it (Feature Engineering) according to our requirements in order to receive the desired result. Now nMachine learning algorithms comes into play which helps us in prediction. Finally, the output is interpreted and evaluated using the statistical methods.  
