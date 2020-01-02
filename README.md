@@ -9,6 +9,6 @@ The aim of this project is to analyse an available dataset from an Ecommerce bus
 **THEME:**  
 To produce a generalised, specific and tailored recommendation to a user by observing the pattern in his purchase behaviour using transactional data from an online Ecommerce retailer. To keep on giving more specific recommendations, I have used three different
 approaches and tried to explain them in the simplest of manner performing all the computations on a Jupyter notebook and providing snippets wherever necessary.  
-a) Affinity based analysis – Based on Affinity Weight, Popularity, Recency
-b) Similar Customer based analysis – Based on the score/rating given by the customer
-c) Content based analysis – Based on the Review sentiments of the customer
+a) Affinity based analysis – Based on Affinity Weight, Popularity, Recency.  
+b) Similar Customer based analysis – Based on the score/rating given by the customer.  
+c) Content based analysis – Based on the Review sentiments of the customer.  
